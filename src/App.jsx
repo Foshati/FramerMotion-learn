@@ -1,5 +1,11 @@
+import ShowAnim from "./components/showAnim/ShowAnim";
+
 function App() {
-  return <>hello fa</>;
+  return (
+    <>
+      <ShowAnim />
+    </>
+  );
 }
 
 export default App;
