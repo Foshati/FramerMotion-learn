@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Base from './components/Base';
 import Toppings from './components/Toppings';
 import Order from './components/Order';
+import AdvancedAnimation from './components/AdvancedAnimation';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
   return (
     <>
       <Header />
+      {/* <AdvancedAnimation/> */}
       <Router>
         <Routes>
           <Route path="/base" element={<Base addBase={addBase} pizza={pizza} />} />
